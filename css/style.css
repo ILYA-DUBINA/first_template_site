@@ -1,0 +1,2875 @@
+ body{
+     margin: 0px;
+     font-family: 'Open Sans', sans-serif;
+
+     line-height: 1.6;
+     font-size: 16px;
+     color: #585858;
+ }
+
+ *,
+ *:before,
+ *:after {
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+     margin: 0px;
+ }
+
+ form{
+     margin: 0 0;
+ }
+
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular.ttf") format("truetype");
+}
+
+ /* section_one */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+ .our{
+     width: 100%;
+     height: 687px;
+
+     padding: 0 15px;
+
+     background-color: #f6f2f2;
+ }
+
+ /* Header */
+
+ .header{
+    width: 100%;
+     max-width: 1251px;
+
+     position: relative;
+     top: 29px;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 0px auto;
+
+     background-color: #313030;
+ }
+
+ .nav_link_one, .nav_link_two, .nav_link_three, .nav_link_four{
+     display: inline-block;
+
+     font-size: 14px;
+     font-weight: 700;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    padding: 33.5px 24.5px;
+
+     color: #e0e0e0;
+ }
+ .nav_link_two{
+     padding: 33.5px 39px;
+ }
+ .nav_link_three{
+     padding: 33.5px 28.5px;
+ }
+ .nav_link_four{
+     padding: 33.5px 35px;
+ }
+ .nav_link_one:hover, .nav_link_two:hover, .nav_link_three:hover, .nav_link_four:hover{
+    background-color: #ff3f40;
+
+    transition: background-color 0.1s linear;
+ }
+
+ /* Intro */
+
+ .intro{
+     display: flex;
+     justify-content: space-between;
+
+     width: 100%;
+    max-width: 1251px;
+
+    margin: 132px auto;
+ }
+
+ .container_text{
+     width: 100%;
+     max-width: 560px;
+ }
+
+ .intro_title{
+     font-size: 60px;
+     font-weight: 800;
+     font-family: "Open Sans";
+
+     letter-spacing: 5px;
+     line-height: 73px;
+
+     color: #000000;
+ }
+
+ .intro_text{
+     font-size: 16px;
+
+     font-family: "MyriadProRegular";
+
+     word-break: break-all;
+     word-wrap: break-word;
+
+     margin-right: 73px;
+
+     line-height: 1.8;
+
+     opacity: 0.70;
+
+     color: #6f6d6d;
+ }
+
+ .intro_floor{
+     font-size: 18px;
+     font-weight: 700;
+     font-family: "Open Sans";
+
+     padding: 14px 62px;
+
+     margin-top: 36px;
+
+     border: 2px  solid #ff2d2d;
+     border-radius: 6px;
+
+     outline: 0;
+
+     cursor: pointer;
+
+     color: #ff2d2d;
+
+     background-color: #f6f2f2;
+
+     transition: background-color 0.1s linear;
+ }
+ .intro_floor:hover {
+     color: #fff;
+     background-color: red;
+ }
+
+ .intro_video{
+      width: 553px;
+     height: 356px;
+
+     margin-left: 111px;
+     margin-top: 8px;
+
+    box-shadow:0px 0px 82px 0px rgb(0,0,0,0.3);
+
+    background: url(../images/block_one/video.png) 50% 50% no-repeat #c4c0b1;
+}
+
+ /* Section_two */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+ /* mirror */
+
+.mirror{
+    display: flex;
+
+     width: 100%;
+    max-width: 1281px;
+    height: 694px;
+
+    padding: 0 15px;
+
+    margin: 0 auto;
+}
+
+/* Provide */
+
+.provide{
+     width: 100%;
+     max-width: 530px;
+
+     margin-top: 100px;
+
+     border-bottom: 2px solid #ececec;
+}
+
+.provide_title{
+    font-size: 42px;
+     font-weight: 630;
+
+    text-transform: uppercase;
+
+    line-height: 1.4;
+
+    opacity: 0.67;
+
+    color: #000000;
+}
+
+.provide_text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+    margin-top: 32px;
+    margin-bottom: 0px;
+
+     line-height: 1.8;
+
+     color: #000000;
+}
+
+.provide_floor{
+     font-size: 18px;
+     font-weight: 700;
+     font-family: "Open Sans";
+
+     padding: 14px 62px;
+
+     margin-top: 52px;
+
+     border: 2px  solid #ff2d2d;
+     border-radius: 6px;
+
+     outline: 0;
+
+     cursor: pointer;
+
+     color: #ff2d2d;
+
+     background-color: #fff;
+ }
+.provide_floor:hover {
+     color: #fff;
+     background-color: red;
+ }
+
+/* icon */
+
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-left: 43px;
+
+    margin-top: 108px;
+
+    border-bottom: 2px solid #ececec;
+}
+
+.management_title, .UI_title, .logo_title, .animation_title {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Open Sans";
+
+    padding-top: 25px;
+
+    opacity: 0.60;
+
+    color: #000;
+}
+.logo_title, .animation_title{
+    padding-top: 36px;
+}
+
+.management_text, .UI_text, .logo_text, .animation_text{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Open Sans";
+
+    margin-top: 11px;
+
+    opacity: 0.85;
+}
+
+.icon_management, .icon_design, .icon_logo, .icon_animation{
+    width: 333px;
+
+    hyphens: auto;
+
+    padding-left: 40px;
+    padding-bottom: 0px;
+}
+.icon_management, .icon_design{
+    height: 170px;
+}
+
+
+/* Section_three */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.feature {
+    width: 100%;
+    max-width: 1281px;
+
+    padding: 0 15px;
+
+    margin: 0 auto;
+}
+
+.feature_head{
+    width: 100%;
+    max-width: 510px;
+
+    text-align: center;
+
+    margin: 0px auto;
+}
+.feature_head:after{
+    content:"";
+
+    display: block;
+
+    width: 130px;
+    height: 2px;
+
+    margin: 29px auto 0;
+
+    background-color: #ff2d2d;
+}
+
+.products_title{
+    font-size: 42px;
+    font-weight: 700;
+    font-family: "Open Sans";
+
+    padding-top: 87px;
+
+    text-transform: uppercase;
+
+    opacity: 0.65;
+
+    color: #000;
+}
+
+.products_text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+    margin-top: 11px;
+
+    line-height: 1.8;
+
+    opacity: 0.65;
+
+    color: #000;
+}
+
+/* cube */
+
+.cube_nav{
+    text-align: center;
+
+    margin-top: 79px;
+}
+
+.cube_title{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Open Sans";
+
+    margin-left: 50px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+
+    opacity: 0.60;
+
+    color: #000;
+}
+.cube_title:hover{
+    opacity: 1;
+
+    color: #ff2d2d;
+}
+
+.cube{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 56px;
+}
+.cube_one, .cube_two, .cube_fhree, .cube_four, .cube_five, .cube_six, .cube_seven, .cube_eight{
+    height: 290px;
+    width: 297px;
+
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    background-color: #f5f0dd;
+}
+
+.cube_one, .cube_five{
+    margin-left: 0px;
+}
+
+/* Section_four */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.feature_two {
+    width: 100%;
+    max-width: 1281px;
+
+    padding: 0 15px;
+
+    margin: 0 auto;
+}
+
+/* meet */
+
+.meet {
+    width: 450px;
+    height: 251px;
+
+    padding-top: 100px;
+}
+
+.meet_title{
+     font-size: 42px;
+     font-weight: 700;
+     font-family: "Open Sans";
+
+     text-transform: uppercase;
+
+     opacity: 0.70;
+
+     color: #000;
+}
+
+.meet_text{
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: "Open Sans";
+
+    margin-top: 18px;
+    margin-bottom: 0px;
+
+    opacity: 0.75;
+
+    color: #000;
+}
+.meet_text:after{
+    content:"";
+
+    display: block;
+
+    width: 130px;
+    height: 2px;
+
+    margin-top: 33px;
+
+    background-color: #ff2d2d;
+}
+
+/* mark */
+
+.mark{
+    display: flex;
+
+    margin-top: 115px;
+}
+
+.mark_cube{
+    width: 320px;
+    height: 458px;
+
+    background-color: #f5f0dd;
+}
+
+.mark_waugh{
+    width: 100%;
+    max-width: 850px;
+    height: 445px;
+
+    margin-left: 72px;
+}
+
+.mark_waugh_title{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Open Sans";
+
+    text-transform: uppercase;
+
+    opacity: 0.70;
+
+    color: #000;
+}
+
+.mark_waugh_text{
+    width: 634px;
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+    opacity: 0.65;
+
+    color: #000;
+}
+
+.mark_nav{
+   margin-top: 38px;
+
+   word-spacing: 33px;
+}
+
+.mark_nav_one, .mark_nav_two, .mark_nav_three, .mark_nav_four{
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+
+    text-decoration: none;
+
+    letter-spacing: 1px;
+
+    opacity: 0.75;
+
+    color: #000;
+}
+
+.mark_waugh_cube{
+    display: flex;
+
+    margin-top: 64px;
+}
+.mark_one, .mark_two, .mark_three, .mark_four{
+    width: 197px;
+    height: 214px;
+
+    margin-left: 18px;
+
+    color: #f5f0dd;
+
+    background-color: #f5f0dd;
+}
+.mark_one{
+    margin: 0px;
+}
+
+.mark_one_one, .mark_two_two, .mark_three_three, .mark_four_four{
+    width: 197px;
+    height: 214px;
+
+    margin-left: 18px;
+
+    cursor: pointer;
+}
+.mark_one_one, .mark_two_two, .mark_three_three, .mark_four_four{
+    margin: 0px;
+}
+
+.mark_one_one:hover, .mark_two_two:hover, .mark_three_three:hover, .mark_four_four:hover{
+    width: 197px;
+    height: 214px;
+
+    display: flex;
+    flex-direction: column-reverse;
+
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Open Sans";
+
+    text-transform: uppercase;
+    text-align: center;
+
+    cursor: pointer;
+
+    color: #ffffff;
+
+    background: url(../images/block_four/1.jpg) 0% 100% no-repeat;
+}
+
+/* section_five */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* design */
+
+.design{
+    width: 100%;
+    height: 512px;
+
+    text-align: center;
+
+    margin-top: 110px;
+    padding: 0 15px;
+
+    background-color: #f5f0dd;
+}
+
+.design_title{
+    font-size: 42px;
+    font-weight: 700;
+    font-family: "Open Sans";
+
+    letter-spacing: 0.6px;
+
+    padding-top: 128px;
+    padding-right: 18px;
+
+    opacity: 0.80;
+
+    color: #fff;
+}
+
+.design_text{
+    font-size: 16px;
+    font-family: "Open Sans";
+
+    word-spacing: -1px;
+
+    margin-top: 21px;
+    margin-right: 14px;
+
+    opacity: 0.80;
+
+    color: #fff;
+}
+
+.design_block{
+    display: flex;
+
+    width: 758px;
+    height: 79px;
+
+    align-items: center;
+
+    margin: 59px auto;
+
+    padding: 0px;
+}
+
+.design_subscribe{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans";
+
+    text-transform: uppercase;
+
+    padding: 25.5px 58px;
+
+    margin-left: 22px;
+
+    border: 2px  solid #ff2d2d;
+    border-radius: 5px;
+
+    outline: 0;
+
+    cursor: pointer;
+
+    color: #ffffff;
+
+    background-color: #ff2d2d;
+
+    transition: background-color 0.1s linear;
+}
+.design_subscribe:hover{
+    background-color: #fe5858;
+}
+
+.design_form{
+    width: 512px;
+    height: 79px;
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+
+    outline: 0;
+
+    opacity: 0.70;
+
+    color: #2c2c2c;
+
+    background-color: #ffffff;
+}
+
+/* section_six */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+/* penultimate */
+
+.penultimate{
+    display: flex;
+
+    width: 100%;
+    max-width: 1281px;
+    height: 985px;
+
+    padding: 0 15px;
+
+    margin: 0 auto;
+}
+
+.get{
+    width: 730px;
+    height: 769px;
+}
+
+.get_title{
+     font-size: 42px;
+     font-weight: 700;
+     font-family: "Open Sans";
+
+     text-transform: uppercase;
+
+     padding-top: 87px;
+     margin-bottom: 0px;
+
+     opacity: 0.65;
+
+     color: #000;
+}
+
+.get_text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+    line-height: 1.8;
+
+    margin-top: 26px;
+
+    opacity: 0.70;
+
+    color: #000;
+}
+.get_text:after{
+    content:"";
+
+    display: block;
+
+    width: 130px;
+    height: 2px;
+
+    margin: 53px 0;
+
+    background-color: #ff2d2d;
+}
+
+/* get_name */
+
+
+.get_name{
+    display: flex;
+
+    margin-bottom: 45px;
+    margin-top: 76px;
+}
+
+.get_form_one{
+    width: 339px;
+    height: 69px;
+
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+    border: 1px solid #e5e5e5;
+    border-radius: 7px;
+
+    outline: 0;
+
+    opacity: 0.70;
+
+    color: #000;
+
+    background-color: #e5e5e5;
+}
+.get_form_two{
+    width: 339px;
+    height: 69px;
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+    border: 1px solid #e5e5e5;
+    border-radius: 7px;
+
+    margin-left: 54px;
+
+    outline: 0;
+
+    opacity: 0.70;
+
+    color: #000;
+
+    background-color: #e5e5e5;
+}
+
+.get_textarea{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+    width: 730px;
+    height: 250px;
+
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+    resize: none;
+
+    border: 1px solid #e5e5e5;
+    border-radius: 7px;
+
+    margin-bottom: 44px;
+
+    outline: 0;
+
+    opacity: 0.70;
+
+    color: #000;
+
+    background-color: #e5e5e5;
+}
+
+.get_button{
+    width: 100%;
+    height: 72px;
+
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Open Sans";
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    border: 1px solid #ff3b3b;
+    border-radius: 5px;
+
+    outline: 0;
+
+    cursor: pointer;
+
+    color: #ffffff;
+
+    background-color: #ff3b3b;
+
+    transition: background-color 0.1s linear;
+}
+.get_button:hover{
+    background-color: #fb5757;
+}
+
+/* info */
+
+.info{
+    position: relative;
+
+    width: 400px;
+    height: 481px;
+
+    font-size: 16px;
+
+    margin-top: 395px;
+    margin-left: 109px;
+
+    box-shadow:350px 0px 0px 0px rgba(45,45,45,1);
+
+    color: #fff;
+
+    background-color: #2d2d2d;
+}
+
+
+.info_header{
+    width: 289px;
+    height: 191px;
+
+    margin-top: 137px;
+    margin-left: 79px;
+}
+
+.info_title{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans";
+
+    margin-bottom: 30px;
+
+    text-transform: uppercase;
+
+    opacity: 0.80;
+}
+
+.info_address, .info_text, .info_number{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+    line-height: 1.8;
+
+    margin-bottom: 18px;
+
+    opacity: 0.80;
+}
+.info_text{
+    margin-bottom: 19px;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    height: 111px;
+
+    padding: 0 15px;
+
+    color: #b1b1b1;
+
+    background-color: #313030;
+}
+
+.header_footer{
+    width: 100%;
+    max-width: 1255px;
+
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding-top: 47px;
+
+    margin: 0 auto;
+}
+
+.footer_text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+    color: #b1b1b1;
+}
+
+.nav_footer{
+    display: flex;
+    justify-content: space-between;
+
+    width: 200px;
+
+    background-color: #313030;
+}
+
+
+
+/* @media */
+
+/*
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+/***************************************************/
+@media (max-width: 1300px){
+
+/* section_one */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ /* Intro */
+
+
+ .intro_title{
+     font-size: 53px;
+
+     letter-spacing: 5px;
+
+     line-height: 55px;
+ }
+
+ .intro_text{
+     font-size: 16px;
+
+     margin-right: 50px;
+     margin-top: 30px;
+
+     line-height: 1.7;
+ }
+
+ .intro_floor{
+     font-size: 16px;
+
+     padding: 12px 60px;
+
+     margin-top: 28px;
+ }
+
+ .intro_video{
+      width: 535px;
+     height: 337px;
+
+     margin-left: 100px;
+     margin-top: 6px;
+}
+
+
+/* section_two */
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    */
+
+.mirror{
+    height: 630px;
+
+}
+
+/* Provide */
+
+.provide{
+    max-width: 500px;
+
+     margin-top: 80px;
+}
+
+.provide_title{
+    font-size: 39px;
+
+    line-height: 1.3;
+}
+
+.provide_text{
+    font-size: 15px;
+
+    margin-top: 27px;
+
+     line-height: 1.7;
+}
+
+.provide_floor{
+     font-size: 16px;
+
+     padding: 12px 60px;
+
+     margin-top: 52px;
+ }
+
+
+/* icon */
+
+.icon{
+    margin-top: 90px;
+}
+
+.management_img{
+    width: 35px;
+    height: 35px;
+}
+.design_img{
+    width: 34px;
+    height: 32px;
+}
+
+.logo_img{
+    width: 35px;
+    height: 28px;
+}
+
+.animation_img{
+    width: 39px;
+    height: 29px;
+}
+
+.management_title, .UI_title, .logo_title, .animation_title {
+    font-size: 21px;
+
+    padding-top: 16px;
+}
+
+.management_text, .UI_text, .logo_text, .animation_text{
+    font-size: 15px;
+
+    margin-top: 9px;
+}
+
+.icon_management, .icon_design, .icon_logo, .icon_animation{
+    width: 320px;
+
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+/* section_three */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    */
+
+.cube{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+
+    text-align: center;
+
+    margin-top: 56px;
+}
+.cube_one, .cube_two, .cube_fhree, .cube_four, .cube_five, .cube_six, .cube_seven, .cube_eight{
+    height: 290px;
+    width: 297px;
+
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* section_four */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.feature_two{
+    height: 970px;
+}
+
+.meet_text{
+    width: 350px;
+}
+
+.mark_waugh_cube{
+    width: 412px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+    margin-top: 64px;
+}
+
+.mark_one, .mark_three{
+    margin: 0px;
+}
+.mark_three, .mark_four{
+    margin-top: 18px;
+}
+
+.mark_cube{
+    width: 100%;
+    max-width: 320px;
+}
+
+.mark_waugh{
+    width: 100%;
+    max-width: 850px;
+    height: 800px;
+
+    position: relative;
+    top: -230px;
+
+    margin-left: 72px;
+}
+
+.mark_waugh_text{
+    width: auto;
+}
+
+/* section_five */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* design */
+
+.design{
+    margin-top: 0px;
+}
+
+
+/* section_six */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* info */
+
+.info{
+    margin-left: 79px;
+}
+
+}
+
+
+/***************************************************/
+@media (max-width: 1240px){
+
+/* Section_one */
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    */
+
+ .intro_video{
+      width: 510px;
+     height: 331px;
+
+     margin-left: 100px;
+     margin-top: 6px;
+ }
+
+ /* Section_two */
+
+ .provide{
+     max-width: 470px;
+ }
+
+/* Section_three */
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    */
+
+
+.cube{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+
+    text-align: center;
+
+    margin-top: 56px;
+}
+.cube_one, .cube_two, .cube_fhree, .cube_four, .cube_five, .cube_six, .cube_seven, .cube_eight{
+    height: 290px;
+    width: 297px;
+
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* section_six */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* penultimate */
+
+.penultimate{
+    display: flex;
+    flex-direction: column;
+
+    height: 1150px;
+}
+
+.get{
+    width: 100%;
+    height: 769px;
+
+    margin: 0 auto;
+}
+
+.get_title{
+    font-size: 42px;
+
+    text-align: center;
+}
+
+.get_text{
+    width: 100%;
+
+    text-align: center;
+}
+.get_text:after{
+    text-align: center;
+
+    margin: 53px auto 0;
+}
+
+/* get_name */
+
+
+.get_name{
+    justify-content: center;
+}
+
+.get_type{
+    width: 729px;
+
+    margin: 0 auto;
+}
+
+/* info */
+
+.info{
+    width: 726px;
+    height: 230px;
+
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow:0px 0px 0px 0px rgba(45,45,45,1);
+}
+
+.info_header{
+    width: 289px;
+
+    text-align: center;
+
+    margin: 10 auto;
+}
+
+}
+
+/***************************************************/
+@media (max-width: 1200px){
+
+/* Section_one */
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   */
+
+/* Intro */
+
+.our{
+    height: 630px;
+}
+
+.header{
+   position: relative;
+   top: 20px;
+}
+
+.nav_link_one, .nav_link_two, .nav_link_three, .nav_link_four{
+     font-size: 13px;
+
+    padding: 31.5px 22.5px;
+ }
+
+.intro{
+   margin-top: 100px;
+}
+
+.intro_title{
+     font-size: 46px;
+
+     letter-spacing: 4px;
+
+     line-height: 52px;
+ }
+
+ .intro_text{
+     font-size: 15px;
+
+     margin-right: 90px;
+
+     line-height: 1.6;
+ }
+
+ .intro_floor{
+     font-size: 16px;
+
+     padding: 10px 50px;
+
+     margin-top: 23px;
+ }
+
+
+ .intro_video{
+     width: 510px;
+     height: 311px;
+
+     margin-left: auto;
+     margin-top: 6px;
+ }
+
+
+
+/* section_two */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    */
+
+
+.mirror{
+    height: 704px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Provide */
+
+.provide{
+    max-width: none;
+
+     text-align: center;
+
+     margin-top: 80px;
+
+     border-bottom: none;
+}
+
+.provide_title{
+    font-size: 40px;
+
+    line-height: 1.2;
+}
+
+.provide_text{
+    font-size: 14px;
+
+    margin-top: 30px;
+
+     line-height: 1.8;
+}
+
+.provide_floor{
+     font-size: 16px;
+
+     padding: 11px 50px;
+
+     margin-top: 40px;
+ }
+
+
+/* icon */
+
+.icon{
+    padding-left: 0;
+
+    margin-top: 30px;
+}
+
+.logo_title, .animation_title{
+    padding-top: 16px;
+}
+
+.icon_management, .icon_design, .icon_logo, .icon_animation{
+    width: 25%;
+
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.icon_management, .icon_design{
+    height: 100px;
+}
+.icon_management{
+    padding-left: 0px;
+}
+
+/* section_three  */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.products_title{
+    font-size: 40px;
+
+    padding-top: 77px;
+}
+
+.products_text{
+    font-size: 16px;
+
+    margin-top: 9px;
+}
+
+/* cube */
+
+.cube_nav{
+
+    margin-top: 70px;
+}
+
+.cube_title{
+    font-size: 20px;
+
+    margin-left: 30px;
+}
+
+.cube{
+    margin-top: 40px;
+}
+.cube_one, .cube_two, .cube_fhree, .cube_four, .cube_five, .cube_six, .cube_seven, .cube_eight{
+    height: 270px;
+    width: 277px;
+
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.cube_one, .cube_four{
+    margin-left: 0px;
+}
+
+/* section_five */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* design */
+
+.design_title{
+    font-size: 42px;
+
+    padding-top: 100px;
+}
+
+
+}
+
+/*******************************************    */
+@media (max-width: 990px){
+
+/*  section_one  */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    */
+
+/* Intro */
+
+.our{
+    height: 500px;
+}
+
+.header{
+   position: relative;
+   top: 15px;
+}
+
+.nav_link_one, .nav_link_two, .nav_link_three, .nav_link_four{
+     font-size: 13px;
+
+    padding: 24.5px 18.5px;
+ }
+
+.intro{
+   margin-top: 80px;
+}
+
+.intro_title{
+     font-size: 37px;
+
+     letter-spacing: 3px;
+
+     line-height: 45px;
+ }
+
+ .intro_text{
+     font-size: 14px;
+
+     margin-right: 170px;
+
+     line-height: 1.5;
+ }
+
+ .intro_floor{
+     font-size: 14px;
+
+     padding: 8px 40px;
+
+     margin-top: 20px;
+ }
+
+
+ .intro_video{
+      width: 410px;
+     height: 270px;
+
+     margin-left: -90px;
+
+     box-shadow:0px 0px 50px 0px rgb(0,0,0,0.3);
+ }
+
+/*  section_three   */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    */
+
+
+.feature_head:after{
+    width: 120px;
+}
+
+.products_title{
+    font-size: 35px;
+
+    padding-top: 79px;
+}
+
+.products_text{
+    font-size: 16px;
+
+    margin-top: 10px;
+
+    line-height: 1.7;
+}
+
+/* cube  */
+
+.cube_nav{
+    margin-top: 65px;
+}
+
+.cube_title{
+    font-size: 21px;
+
+    margin-left: 30px;
+}
+
+.cube_one, .cube_two, .cube_fhree, .cube_four, .cube_five, .cube_six, .cube_seven, .cube_eight{
+    height: 270px;
+    width: 277px;
+
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* section_five */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* design */
+
+.design_title{
+    padding-top: 90px;
+}
+
+
+}
+
+
+/**********************************************    */
+@media (max-width: 916px){
+
+/* section_three  */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    */
+
+.mark_waugh_cube{
+    margin-top: 38px;
+}
+
+}
+
+/**********************************************    */
+@media (max-width: 880px){
+
+/* section_one  */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    */
+
+
+/* Intro */
+
+.our{
+    height: 410px;
+}
+
+.nav_link_one, .nav_link_two, .nav_link_three, .nav_link_four{
+     font-size: 10px;
+
+    padding: 20.5px 15.5px;
+ }
+
+.intro{
+   margin-top: 50px;
+}
+
+.intro_title{
+     font-size: 33px;
+
+     margin-right: 200px;
+
+     line-height: 1;
+ }
+
+ .intro_text{
+     font-size: 12px;
+
+     margin-right: 230px;
+     margin-top: 20px;
+
+     line-height: 1.5;
+ }
+
+ .intro_floor{
+     font-size: 12px;
+
+     padding: 6px 30px;
+
+     margin-top: 16px;
+ }
+
+
+ .intro_video{
+      width: 390px;
+     height: 230px;
+
+     margin-left: -140px;
+
+     box-shadow:0px 0px 30px 0px rgb(0,0,0,0.3);
+ }
+
+ /* section_two */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    */
+
+.mirror{
+    height: 800px;
+
+    border-bottom: 2px solid #ececec;
+}
+
+/* Provide */
+
+.provide{
+    height: 80px;
+    margin-top: 60px;
+}
+
+.provide_title{
+    font-size: 33px;
+}
+
+.provide_text{
+    font-size: 13px;
+
+    margin-top: 30px;
+
+     line-height: 1.8;
+}
+
+.provide_floor{
+     font-size: 13px;
+
+     padding: 8px 37px;
+
+     margin-top: 40px;
+ }
+
+
+/* icon */
+
+.icon{
+    height: 400px;
+
+    position: relative;
+    top: 50px;
+
+    margin-top: 40px;
+
+    border-bottom: none;
+}
+
+.management_img{
+    width: 32px;
+    height: 32px;
+}
+.design_img{
+    width: 31px;
+    height: 29px;
+}
+
+.logo_img{
+    width: 32px;
+    height: 25px;
+}
+
+.animation_img{
+    width: 36px;
+    height: 26px;
+}
+
+.management_title, .UI_title, .logo_title, .animation_title {
+    font-size: 18px;
+
+    padding-top: 14px;
+}
+
+.logo_title, .animation_title{
+    padding-top: 14px;
+}
+
+.management_text, .UI_text, .logo_text, .animation_text{
+    font-size: 14px;
+
+    margin-top: 7px;
+}
+
+.icon_management, .icon_design, .icon_logo, .icon_animation{
+    width: 50%;
+
+    padding-left: 30px;
+    padding-bottom: 0px;
+}
+
+.icon_management, .icon_design{
+    height: auto;
+}
+.icon_management, .icon_logo{
+    padding-left: 0px;
+}
+.icon_management{
+    padding-bottom: 30px;
+}
+
+
+
+/*  section_three  */
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.cube_nav{
+    margin-top: 60px;
+}
+
+.cube_title{
+    font-size: 19px;
+
+    margin-left: 20px;
+}
+
+.cube{
+    margin-top: 35px;
+}
+.cube_one, .cube_two, .cube_fhree, .cube_four, .cube_five, .cube_six, .cube_seven, .cube_eight{
+    height: 270px;
+    width: 277px;
+
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.cube_one, .cube_fhree, .cube_five, .cube_seven{
+    margin-left: 0px;
+}
+
+/* section_four  */
+/*   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.feature_two{
+    height: 1550px;
+}
+
+
+/* meet */
+
+.meet {
+    width: 100%;
+
+    text-align: center;
+
+    padding-top: 50px;
+}
+
+.meet_title{
+    font-size: 35px;
+
+    line-height: normal;
+}
+
+.meet_text{
+    width: 100%;
+
+    font-size: 15px;
+
+    margin-top: 20px;
+}
+.meet_text:after{
+    width: 110px;
+
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* mark */
+
+.mark{
+    position: flex;
+    flex-direction: column;
+
+    margin-top: 30px;
+}
+
+.mark_cube{
+    margin: 0 auto;
+}
+
+.mark_waugh{
+   top: 30px;
+
+   text-align: center;
+
+   margin-left: 0px;
+
+}
+
+.mark_waugh_title{
+    font-size: 27px;
+}
+
+.mark_waugh_text{
+    font-size: 15px;
+}
+
+.mark_nav{
+    margin-top: 36px;
+}
+
+.mark_waugh_cube{
+    margin-top: 48px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* section_five */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* design */
+
+.design{
+    height: 512px;
+}
+
+.design_title{
+    font-size: 35px;
+
+    line-height: 1.2;
+}
+
+.design_text{
+    font-size: 15px;
+
+    margin-right: 0;
+}
+
+.design_block{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 79px;
+
+    margin: 39px auto;
+}
+
+.design_subscribe{
+    font-size: 16px;
+
+    padding: 20px 48px;
+    margin-top: 40px;
+
+    margin-left: 22px;
+}
+
+
+.design_form{
+    width: 452px;
+    height: 69px;
+
+    font-size: 14px;
+}
+
+/* section_six */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* penultimate */
+
+.penultimate{
+    height: 1020px;
+}
+
+.get{
+    height: 755px;
+}
+
+.get_title{
+    font-size: 35px;
+
+    padding-top: 70px;
+}
+
+.get_text{
+    font-size: 15px;
+}
+.get_text:after{
+    margin: 45px auto 0;
+}
+
+
+/* get_name */
+
+.get_name{
+    margin-top: 50px;
+}
+
+.get_type{
+    width: 550px;
+
+    margin: 0 auto;
+}
+
+.get_form_one{
+    width: 250px;
+    height: 49px;
+
+    font-size: 14px;
+}
+.get_form_two{
+    width: 250px;
+    height: 49px;
+
+    font-size: 14px;
+
+    margin-left: 44px;
+}
+
+.get_textarea{
+    font-size: 14px;
+
+    width: 550px;
+    height: 200px;
+
+    margin-bottom: 44px;
+}
+
+.get_button{
+    width: 550px;
+    height: 52px;
+
+    font-size: 16px;
+}
+
+/* info */
+
+.info{
+    width: 550px;
+
+    font-size: 14px;
+
+    margin-top: 0px;
+}
+
+.info_header{
+    margin: 15 auto;
+}
+
+.info_title{
+    font-size: 16px;
+}
+
+.info_address, .info_text, .info_number{
+    font-size: 14px;
+}
+
+}
+
+/***********************************************/
+@media (max-width: 700px){
+
+/* section_one */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* Intro */
+
+.our{
+    height: 600px;
+}
+
+.nav_link_one, .nav_link_two, .nav_link_three, .nav_link_four{
+     font-size: 10px;
+
+    padding: 20.5px 15.5px;
+ }
+
+.intro{
+   flex-wrap: wrap;
+   justify-content: center;
+
+   text-align: center;
+
+   margin-top: 50px;
+}
+
+.intro_title{
+     font-size: 30px;
+
+     margin-right: 0px;
+     margin-bottom: 20px;
+
+     line-height: 1;
+ }
+
+ .intro_text{
+     font-size: 12px;
+
+     margin-right: 0px;
+     margin-top: 10px;
+
+     line-height: 1.5;
+ }
+
+ .intro_floor{
+     font-size: 12px;
+
+     padding: 6px 30px;
+
+     margin-top: 8px;
+ }
+
+
+ .intro_video{
+     width: 390px;
+     height: 230px;
+
+     margin-left: 0px;
+     margin-top: 40px;
+
+     box-shadow:0px 0px 50px 0px rgb(0,0,0,0.3);
+ }
+
+/*  Section_two  */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    */
+
+/*  icon  */
+
+  .provide_floor{
+     margin-top: 25px;
+ }
+
+
+/*  section_three  */
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+
+
+.feature_head:after{
+    width: 100px;
+}
+
+.products_title{
+    font-size: 33px;
+
+    padding-top: 70px;
+}
+
+.products_text{
+    font-size: 14px;
+
+    margin-top: 10px;
+
+    line-height: 1.6;
+}
+
+/* cube  */
+
+.cube_nav{
+    margin-top: 60px;
+}
+
+.cube_title{
+    font-size: 18px;
+
+    margin-left: 15px;
+}
+
+.cube{
+    margin-top: 35px;
+}
+.cube_one, .cube_two, .cube_fhree, .cube_four, .cube_five, .cube_six, .cube_seven, .cube_eight{
+    height: 270px;
+    width: 277px;
+
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.cube_one, .cube_fhree, .cube_five, .cube_seven{
+    margin-left: 0px;
+}
+
+}
+
+/****************************************************/
+@media (max-width: 618px){
+
+/*    Section_three    */
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.cube_two, .cube_four, .cube_six, .cube_eight{
+    margin-left: 0px;
+}
+
+/* section_five */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* design */
+
+.design_title{
+    padding-top: 50px;
+}
+
+.design_block{
+    margin: 30px auto;
+}
+
+/* section_six */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* penultimate */
+
+.penultimate{
+    height: 900px;
+}
+
+.get{
+    height: 650px;
+}
+
+.get_title{
+    padding-top: 50px;
+}
+
+.get_text{
+    font-size: 14px;
+
+    margin-top: 20px;
+
+}
+.get_text:after{
+    width: 110px;
+
+    margin: 35px auto 0;
+}
+
+
+/* get_name */
+
+.get_name{
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.get_type{
+    width: 430px;
+
+    margin: 0 auto;
+}
+
+.get_form_one{
+    width: 200px;
+    height: 40px;
+
+    font-size: 13px;
+}
+.get_form_two{
+    width: 200px;
+    height: 40px;
+
+    font-size: 13px;
+
+    margin-left: 34px;
+}
+
+.get_textarea{
+    font-size: 14px;
+
+    width: 435px;
+    height: 170px;
+
+    margin-bottom: 34px;
+}
+
+.get_button{
+    width: 435px;
+    height: 50px;
+
+    font-size: 15px;
+}
+
+/* info */
+
+.info{
+    width: 435px;
+
+    font-size: 14px;
+
+    margin: 0 auto;
+}
+
+.info_title{
+    font-size: 14px;
+}
+
+.info_address, .info_text, .info_number{
+    font-size: 13px;
+}
+
+/* FOOTER */
+
+.header_footer{
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 15px;
+}
+
+.nav_footer{
+    margin-top: 10px;
+}
+
+}
+
+/****************************************************/
+@media (max-width: 500px){
+
+/*    Section_two    */
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.mirror{
+    height: 1000px;
+
+    border-bottom: none;
+}
+
+.provide{
+    height: 300px;
+
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+
+/*  icon  */
+
+.icon{
+    height: auto;
+
+    top: 30px;
+
+    margin-top: 0px;
+
+    border-bottom: 2px solid #ececec;
+}
+
+.icon_management, .icon_design, .icon_logo, .icon_animation{
+    width: 100%;
+
+    text-align: center;
+
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
+
+.icon:last-child{
+    padding-bottom: 30px;
+}
+
+/*  section_three  */
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.products_title{
+    padding-top: 120px;
+}
+
+.cube_nav{
+    margin: 60px auto 0;
+}
+
+.cube_one, .cube_two, .cube_fhree, .cube_four, .cube_five, .cube_six, .cube_seven, .cube_eight{
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+/* section_four */
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.feature_two{
+    height: 2000px;
+}
+
+.mark{
+    height: 1600px;
+}
+
+.mark_waugh_cube{
+    width: 200px;
+
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mark_one, .mark_two, .mark_three, .mark_four{
+    margin-left: 0px;
+}
+.mark_one{
+    margin-bottom: 18px;
+}
+
+/* section_five */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* design */
+
+.design{
+    height: 500px;
+}
+
+.design_title{
+    font-size: 30px;
+
+    padding-top: 60px;
+    padding-right: 18px;
+}
+
+.design_text{
+    font-size: 12px;
+
+    word-spacing: 0px;
+
+    margin-top: 30px;
+}
+
+.design_block{
+    width: 200px;
+    height: 79px;
+
+    margin: 49px auto;
+
+    padding: 0 15px;
+}
+
+.design_subscribe{
+    font-size: 16px;
+
+    padding: 18px 40px;
+
+    margin-left: 22px;
+}
+
+.design_form{
+    width: 370px;
+    height: 59px;
+
+    font-size: 14px;
+}
+
+
+/* section_six */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* penultimate */
+
+.penultimate{
+    height: 750px;
+}
+
+.get{
+    height: 550px;
+}
+
+.get_title{
+    font-size: 30px;
+
+    padding-top: 40px;
+}
+
+.get_text{
+    font-size: 12px;
+
+    margin-top: 18px;
+
+}
+.get_text:after{
+    width: 90px;
+
+    margin: 30px auto 0;
+}
+
+
+/* get_name */
+
+.get_name{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.get_type{
+    width: 365px;
+
+    margin: 0 auto;
+}
+
+.get_form_one{
+    width: 170px;
+    height: 36px;
+
+    font-size: 12px;
+}
+.get_form_two{
+    width: 170px;
+    height: 36px;
+
+    font-size: 12px;
+
+    margin-left: 20px;
+}
+
+.get_textarea{
+    font-size: 12px;
+
+    width: 365px;
+    height: 130px;
+
+    margin-bottom: 30px;
+}
+
+.get_button{
+    width: 365px;
+    height: 50px;
+
+    font-size: 14px;
+}
+
+/* info */
+
+.info{
+    width: 365px;
+    height: 190px;
+
+    margin: 0 auto;
+}
+
+.info_title{
+    font-size: 13px;
+}
+
+.info_address, .info_text, .info_number{
+    font-size: 12px;
+}
+
+
+
+}
+
+/**************************************************/
+@media (max-width: 400px){
+
+/* section_one  */
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+/* Intro */
+
+.our{
+    height: 500px;
+}
+
+.nav_link_one, .nav_link_two, .nav_link_three, .nav_link_four{
+     font-size: 10px;
+
+    padding: 18.5px 10.5px;
+ }
+
+.intro{
+   flex-wrap: wrap;
+   justify-content: center;
+
+   text-align: center;
+
+   margin-top: 30px;
+}
+
+.intro_title{
+     font-size: 20px;
+
+     margin-right: 0px;
+     margin-bottom: 15px;
+
+     line-height: 1;
+ }
+
+ .intro_text{
+     font-size: 12px;
+
+     margin-right: 0px;
+     margin-top: 7px;
+
+     line-height: 1.4;
+ }
+
+ .intro_floor{
+     font-size: 11px;
+
+     padding: 5px 27px;
+
+     margin-top: 6px;
+ }
+
+ .intro_video{
+      width: 330px;
+     height: 190px;
+
+     margin-left: 0px;
+     margin-top: 30px;
+
+     box-shadow:0px 0px 20px 0px rgb(0,0,0,0.3);
+
+    background: url(../images/block_one/Vedio-2.png) 50% 50% no-repeat #c4c0b1;
+ }
+
+/*  section_two  */
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.mirror{
+    height: 900px;
+}
+
+.provide_title{
+    font-size: 20px;
+}
+
+.provide_text{
+    font-size: 11px;
+
+    margin-top: 15px;
+}
+
+.provide_floor{
+   font-size: 12px;
+
+   padding: 5px 28px;
+}
+
+/* icon  */
+
+.icon{
+    top: -60px;
+}
+
+.management_img{
+    width: 30px;
+    height: 30px;
+}
+.design_img{
+    width: 29px;
+    height: 27px;
+}
+
+.logo_img{
+    width: 30px;
+    height: 23px;
+}
+
+.animation_img{
+    width: 34px;
+    height: 24px;
+}
+
+.management_title, .UI_title, .logo_title, .animation_title {
+    font-size: 18px;
+
+    padding-top: 14px;
+}
+
+.management_text, .UI_text, .logo_text, .animation_text{
+    font-size: 12px;
+
+    margin-top: 7px;
+}
+
+.icon_management, .icon_design, .icon_logo, .icon_animation{
+    width: 100%;
+}
+
+    /*  section_three  */
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.feature_head:after{
+    width: 60px;
+}
+
+.products_title{
+    font-size: 20px;
+
+    padding-top: 80px;
+}
+
+.products_text{
+    font-size: 12px;
+}
+
+.cube_nav{
+    margin: 40px auto 0;
+}
+
+.cube_title{
+    font-size: 16px;
+}
+
+.cube_one, .cube_two, .cube_fhree, .cube_four, .cube_five, .cube_six, .cube_seven, .cube_eight{
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+/* section_four  */
+/*   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.feature_two{
+    height: 1900px;
+}
+
+/* meet */
+
+.meet {
+    height: 230px;
+
+    padding-top: 50px;
+}
+
+.meet_title{
+    font-size: 20px;
+}
+
+.meet_text{
+    font-size: 12px;
+
+    margin-top: 20px;
+}
+.meet_text:after{
+    width: 60px;
+}
+
+/* mark */
+
+.mark{
+    margin-top: 0px;
+}
+
+.mark_waugh{
+   top: 30px;
+}
+
+.mark_waugh_title{
+    font-size: 18px;
+}
+
+.mark_waugh_text{
+    font-size: 12px;
+}
+
+.mark_nav{
+    margin-top: 30px;
+}
+.mark_nav_one, .mark_nav_two, .mark_nav_three, .mark_nav_four{
+    font-size: 14px;
+}
+
+.mark_waugh_cube{
+    margin-top: 35px;
+}
+
+
+/* section_five */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* design */
+
+.design{
+    height: 450px;
+}
+
+.design_title{
+    font-size: 20px;
+}
+
+.design_text{
+    font-size: 12px;
+}
+
+.design_subscribe{
+    font-size: 14px;
+
+    padding: 16px 30px;
+}
+
+.design_form{
+    width: 280px;
+
+    font-size: 13px;
+}
+
+/* section_six */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* penultimate */
+
+.penultimate{
+    height: 840px;
+}
+
+.get{
+    height: 630px;
+}
+
+.get_title{
+    font-size: 20px;
+}
+
+/* get_name */
+
+.get_name{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.get_type{
+    width: 280px;
+}
+
+.get_form_one{
+    width: 280px;
+    height: 40px;
+}
+.get_form_two{
+    width: 280px;
+    height: 40px;
+
+    font-size: 12px;
+
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+.get_textarea{
+    font-size: 12px;
+
+    width: 280px;
+    height: 130px;
+
+    margin-bottom: 30px;
+}
+
+.get_button{
+    width: 280px;
+    height: 50px;
+
+    font-size: 14px;
+}
+
+/* info */
+
+.info{
+    width: 280px;
+    height: 200px;
+}
+
+.info_address{
+    width: 250px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 120px;
+}
+
+.header_footer{
+    text-align: center;
+
+    padding-top: 17px;
+}
+
+.footer_text{
+    font-size: 14px;
+}
+
+.nav_footer{
+    width: 200px;
+
+    margin-top: 13px;
+}
+
+
+}
